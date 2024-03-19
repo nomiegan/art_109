@@ -1,8 +1,28 @@
 
-console.log("hello hello");
+document.querySelector("#image-0").addEventListener("click", function(){
+    document.querySelector("#image-1").style.visibility = "visible";
+    alert("bark bark bark");
+})
 
-//Javascript Timeout changes h1 title to pink after 3 seconds (goes by millisecond therefore 3000)
-setTimeout(function(){
-    document.querySelector("#page-title").style.color = 'hotpink';
-    console.log("timeout worked!")
-}, 3000)
+document.querySelector("#image-1").addEventListener("click", function(){
+    document.querySelector("#image-2").style.visibility = "visible";
+})
+
+document.querySelector("#image-2").addEventListener("click", function(){
+    document.querySelector("#image-3").style.visibility = "visible";
+})
+
+document.querySelector("#image-3").addEventListener("click", function(){
+    document.querySelector("#image-4").style.visibility = "visible";
+})
+
+document.querySelector("#image-4").addEventListener("click", function(){
+    document.querySelector("#image-5").style.visibility = "visible";
+})
+
+document.querySelector("#image-5").addEventListener("click", function(){
+    document.querySelector("#image-6").style.visibility = "visible";
+})
+
+document.querySelector("#image-6").addEventListener("click", function(){
+})
